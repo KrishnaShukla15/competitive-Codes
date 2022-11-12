@@ -1,5 +1,3 @@
 n=int(input())
-m=list(map(int,input().split()))
-tup=tuple(m)
-print(tup)
+m=tuple(map(int,input().split()))
 print(hash(m))
